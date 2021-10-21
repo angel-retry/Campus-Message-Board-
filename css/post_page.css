@@ -1,0 +1,191 @@
+.h5{
+    height: 5px;
+}
+.z1{
+    z-index: 1;
+}
+body{
+    background-color: #FDBEBA;
+}
+.cover{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    display: none;
+    place-items: center;
+}
+.container{
+    position: relative;
+    width: 900px;
+    height: 100vh;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+nav{
+    position: absolute;
+    bottom: 85px;
+    right: 100px;
+    z-index: 1;
+}
+.btn {
+    color: #fff;
+    background-color: #FF4100;
+    font-weight: bold;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #FF4100;
+}
+
+.article-bg{
+    background-color: #FFC700;
+}
+article{
+    position: absolute;
+    width: 90%;
+    height: 70vh;
+    display: none;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 170px;
+    border: 3px solid #FF4100;
+    box-sizing: border-box;
+    box-shadow: 15px 16px 0px #FF4100;
+}
+#article1{
+    display: block;
+}
+
+.article1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.article1 h1{
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #FF4100;
+}
+
+.article1 p{
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.article2 p{
+    font-weight: bold;
+    color: #FF4100;
+    font-size: 20px;
+}
+
+.article3 p{
+    font-weight: bold;
+    color: #FF4100;
+    font-size: 20px;
+}
+
+.article4{
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-toCheck{
+    color: #fff;
+    background-color: #FF4100;
+    font-weight: bold;
+    border: 0px;
+    padding: 3px !important;
+}
+
+.text h1{
+    padding-top: 150px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: #FF4100;
+}
+
+
+.input-group-text {
+    background-color: #FFC700;
+    border: 2px solid #FF4100;
+    border-radius: .25rem;
+    margin-bottom: 5px;
+    color: #FF4100;
+    font-weight: bold;
+}
+.form-control {
+    background-color: #FFE68D !important;
+    border: 2px solid #FF4100;
+    border-radius: .25rem;
+}
+.custom-select {
+    color: rgb(73, 80, 87);
+    vertical-align: middle;
+    border: 2px solid #FF4100;
+    border-radius: 0.25rem;
+    background-color: #FFE68D;
+}
+.border {
+    border: 0px solid rgb(222, 226, 230) !important;
+}
+.tip{
+    width: 100%;
+    color: red;
+    font-size: 14px;
+    margin-left: 5px;
+}
+.bdr{
+    border: 1px solid FF4100;
+    border-radius: 3px;
+}
+.img{
+    position: absolute;
+    bottom: 100;
+    right: 200px;
+    opacity: 0;
+    margin-top: 100px;
+}
+.newPosi{
+    opacity: 1;
+    margin-top: -330px;
+    transition: all 0.3s;
+}
+.img1{
+    width: 550px;
+}
+.img2{
+    width: 550px;
+}
+.img3{
+    width: 550px;
+}
+.img4{
+    width: 550px;
+}
+
+footer{
+    position: fixed;  
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+.schoolTypeRight{
+    width: calc(100% - 90px);
+}
